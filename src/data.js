@@ -1,15 +1,15 @@
-import devLensLogo from 'src/assets/logo-devlens.svg';
-import styleSpyLogo from 'src/assets/logo-style-spy.svg';
-import speedBoostLogo from 'src/assets/logo-speed-boost.svg';
-import jsonWizardLogo from 'src/assets/logo-json-wizard.svg';
-import tabMasterProLogo from 'src/assets/logo-tab-master-pro.svg';
-import viewportBuddyLogo from 'src/assets/logo-viewport-buddy.svg';
-import markupNotesLogo from 'src/assets/logo-markup-notes.svg';
-import gridGuidesLogo from 'src/assets/logo-grid-guides.svg';
-import palettePickerLogo from 'src/assets/logo-palette-picker.svg';
-import linkCheckerLogo from 'src/assets/logo-link-checker.svg';
-import domSnapshotLogo from 'src/assets/logo-dom-snapshot.svg';
-import consolePlusLogo from 'src/assets/logo-console-plus.svg';
+import devLensLogo from './assets/logo-devlens.svg';
+import styleSpyLogo from './assets/logo-style-spy.svg';
+import speedBoostLogo from './assets/logo-speed-boost.svg';
+import jsonWizardLogo from './assets/logo-json-wizard.svg';
+import tabMasterProLogo from './assets/logo-tab-master-pro.svg';
+import viewportBuddyLogo from './assets/logo-viewport-buddy.svg';
+import markupNotesLogo from './assets/logo-markup-notes.svg';
+import gridGuidesLogo from './assets/logo-grid-guides.svg';
+import palettePickerLogo from './assets/logo-palette-picker.svg';
+import linkCheckerLogo from './assets/logo-link-checker.svg';
+import domSnapshotLogo from './assets/logo-dom-snapshot.svg';
+import consolePlusLogo from './assets/logo-console-plus.svg';
 
 let data  = [
   {
