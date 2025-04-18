@@ -1,0 +1,167 @@
+
+
+.read-the-docs {
+  color: #888;
+}
+
+.app {
+  font-family: sans-serif;
+  background-color: #070E2A;
+  color: #cbd5e1;
+  padding: 20px;
+}
+
+/* // had to go back and add this and the one below it to make it work  */
+.app.light {
+  background-color: white;
+  color: black;
+}
+
+.app.dark {
+  background-color: black;
+  color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.theme-toggle {
+  background-color: #334155;
+  color: #cbd5e1;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+/* Filter buttons */
+.filter-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  justify-content: flex-end;
+  margin-left: auto;
+  color: white;
+}
+
+.filter-buttons button {
+  background-color: #334155;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+.card-container {
+  display: grid;
+  flex-wrap: wrap;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  color: white;
+  
+}
+
+.card {
+  background-color: #1F2535;
+  border-radius: 10px;
+  padding: 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.card img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.card h2 {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.card p {
+  font-size: 0.9em;
+  color: #94a3b8;
+  margin-bottom: 10px;
+}
+
+.card-changes button {
+  background-color: black; 
+  color: white;           
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card-changes button:hover {
+  background-color: red; 
+}
+.logo-icon {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+ 
+.navbar {
+  background-color: #1F2535;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px; 
+}
+
+.navbar-logo {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.navbar-right {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.switch-container {
+  color: black;
+
+}
+
+h2 {
+  color: white;
+}
+
+.card-changes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+
+}
+
+button {
+  color: white;
+}
+
+button:hover {
+  background-color: red;
+  color: white;
+}
+
+/* // https://www.w3schools.com/react/react_css.asp */
+
+/* // https://stackoverflow.com/questions/61199765/i-have-a-light-dark-theme-toggle-react-component-that-im-trying-to-improve */
+/* // https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_transitions/Using_CSS_transitions - Tried this at first */
